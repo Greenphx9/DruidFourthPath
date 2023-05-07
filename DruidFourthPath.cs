@@ -79,7 +79,7 @@ public class DruidFourthPathMod : BloonsTD6Mod
         public override int Cost => 1000;
         public override int Tier => 2;
         public override string Icon => VanillaSprites.FireballUpgradeIcon;
-        public override string Description => "Attacks burns Bloons.";
+        public override string Description => "Attacks burn Bloons.";
         public override string? Portrait => "HeartOfFlames";
 
         public override void ApplyUpgrade(TowerModel towerModel)
