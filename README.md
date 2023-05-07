@@ -7,6 +7,6 @@
 
 A mod that gives the Druid an additional path. Requires PathsPlusPlus. Adds 5 new upgrades based around fire.
 
-![Screenshot](screenshot.png)
+![Screenshot](Screenshot.png)
 
 [![Requires BTD6 Mod Helper](https://raw.githubusercontent.com/gurrenm3/BTD-Mod-Helper/master/banner.png)](https://github.com/gurrenm3/BTD-Mod-Helper#readme)
