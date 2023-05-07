@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>DruidFourthPath</RootNamespace>
+        <Configurations>Debug;Release</Configurations>
+        <Nullable>enable</Nullable>
+        <AssemblyName>DruidFourthPath</AssemblyName>
+        <LangVersion>latest</LangVersion>
+        <Optimize>False</Optimize>
+        <DebugType>embedded</DebugType>
+    </PropertyGroup>
+
+    <Import Project="..\btd6.targets" />
+
+    <ItemGroup>
+      <None Remove="Portraits\ControlledBurning.png" />
+      <None Remove="Portraits\DruidOfFire.png" />
+      <None Remove="Portraits\FireBreath.png" />
+      <None Remove="Portraits\HeartOfFlames.png" />
+      <None Remove="Portraits\ScorchedThorns.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="PathsPlusPlus">
+            <HintPath>$(BloonsTD6)\Mods\PathsPlusPlus.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+</Project>
